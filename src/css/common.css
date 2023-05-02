@@ -30,7 +30,6 @@ img {
 .datetime-picker {
   width: fit-content;
   margin: 0 auto;
-  transition: all 0.3s ease;
 }
 
 .field {
