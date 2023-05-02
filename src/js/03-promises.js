@@ -12,9 +12,9 @@ function onFormSubmit(evt) {
   let currentDelay = firstDelay;
   
   for (let i = 0; i < qtyCallFn; i++) {
-    currentDelay += delayIncrement;
-
     createPromise(i + 1, currentDelay);
+    
+    currentDelay += delayIncrement;
   }
 
   form.reset();
