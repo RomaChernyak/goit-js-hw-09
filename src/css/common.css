@@ -20,7 +20,7 @@ img {
 /* Task 2 - Timer */
 
 .timer {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 160px);
   display: flex;
   justify-content: center;
   align-items: center;
