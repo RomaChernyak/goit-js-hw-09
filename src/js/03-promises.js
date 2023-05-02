@@ -34,11 +34,12 @@ function createPromise(position, delay) {
   });
 
   promise.then(result => {
-      Notiflix.Notify.success(result);
-    });
-    promise.catch(error => {
-      Notiflix.Notify.failure(error);
-    });
+    Notiflix.Notify.success(result);
+  });
+  
+  promise.catch(error => {
+    Notiflix.Notify.failure(error);
+  });
 };
 
 form.addEventListener('submit', onFormSubmit);
